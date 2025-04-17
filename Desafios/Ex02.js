@@ -4,15 +4,10 @@
 
 var prompt = require('prompt-sync')();
 
-let frase = [];
+let frase = prompt("digite sua frase: ");
 
-frase = prompt("Escreva uma frase: ");
+const maiorPalavra = frase.split(" ").reduce((maior, atual) => {
+    return atual.length > maior.length ? atual : maior;
+});
 
-var espacos = frase.split(' ');
-
-function maiorPalavra(palavra) {
-    espacos.lenght == 
-}
-
-console.log(maiorPalavra);
-
+console.log(maiorPalavra); 
