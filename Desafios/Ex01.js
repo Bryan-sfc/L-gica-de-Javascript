@@ -1,4 +1,4 @@
-//<1. Formatação de CPF>
+console.log("<1. Formatação de CPF>");
 //Crie uma função que recebe um número como string (ex: &#39;12345678901&#39;) 
 // e retorna no formato de CPF (123.456.789-01) usando slice e concatenação.
 
